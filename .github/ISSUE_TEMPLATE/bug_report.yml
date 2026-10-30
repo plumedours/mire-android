@@ -1,0 +1,30 @@
+name: "Bug / Problème"
+description: "Signaler un problème dans Mire / Report a problem in Mire"
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "Version de Mire / Mire version"
+      placeholder: "1.4.3"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: "Appareil et version Android / Device and Android version"
+      placeholder: "Galaxy S21 — Android …"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Étapes pour reproduire / Steps to reproduce"
+      description: "Indiquez ce qui était attendu et ce qui s’est produit. / Include expected and actual behaviour."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Erreur ou capture / Error log or screenshot"
+      description: "Retirez les données personnelles avant de joindre un journal. / Remove personal information before attaching logs."

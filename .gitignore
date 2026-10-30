@@ -1,0 +1,35 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+keystore.properties
+captures/
+.DS_Store
+*.log
+
+# Signing material and private local settings
+*.p12
+*.pfx
+*.key
+signing.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Publish installers as release assets, not source files
+*.apk
+*.aab
+*.apks
+*.idsig
+*.zip
+/dist/
+/releases/
+/backups/
+/exports/
+mire_sauvegarde_*.json
+volee_sauvegarde_*.json
